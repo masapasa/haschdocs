@@ -69,5 +69,4 @@ BEGIN
 		RETURN return_data;
 END;
 $$;
-npx supabase gen types typescript --project-id kaqpyaxusgjqzlvwhmgu --schema public > types/supabase.ts
 

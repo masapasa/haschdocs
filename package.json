@@ -4,7 +4,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "concurrently \"next dev\" \"supabase functions serve --no-verify-jwt --env-file supabase/functions/.env\"",
+    "devs": "next dev",
+    "dev": "concurrently \"next dev\" \"npx supabase functions serve --no-verify-jwt --env-file supabase/functions/.env\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+supabase/functions/.env
 # next.js
 /.next/
 /out/
